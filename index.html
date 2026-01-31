@@ -1,42 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeafyPod</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeafyPod</title>
 </head>
+
 <body>
-    <header class = "header">
-
+  <div class="main-page-wrap">
+    <header class="header">
+      <div class="leafypod-icon">
+        <img src="./icons/leafy_pod_icon.png" alt="LeafyPod" />
+      </div>
+      <nav class="header-nav">
+        <a>Про товар</a>|
+        <a>Додаток</a>|
+        <a>Відгуки</a>|
+        <a>Зв'язатися</a>
+      </nav>
     </header>
-    <section class = "main-page">
-        <div>
-            <h1> Інтелектуальний вазон з автополивом</h1>
+    <div class="main-page-img">
+      <img src="./icons/main_page_plant.png" alt="Image" />
+    </div>
+    <!-- -->
+    <section class="main-page">
+      <div>
+        <h1> Інтелектуальний вазон з автополивом</h1>
+        <p>
+          LeafyPod — це інтелектуальний вазон, який автоматизує догляд за рослинами, створюючи ідеальні умови завдяки
+          системі автополиву та датчикам.
+        </p>
+        <a href="#">
+          Найкраща пропозиція на Kickstarter
+        </a>
+      </div>
+    </section>
+  </div>
+  <!-- -->
+  <section class="problem">
+    <h3>Вирішує 4 головні причини загибелі рослин</h3>
+    <div class="problem-grid">
+      <article class="problem-item">
+        <img src="./icons/problem_item_moisture.png" alt="1" />
+        <h4>Зволоження ґрунту</h4>
+        <p>Полив динамічно регулюється, щоб ваші рослини залишалися настільки вологими або сухими, наскільки вони
+          повинні бути</p>
+      </article>
+      <article class="problem-item">
+        <img src="./icons/problem_item_light.png" alt="2" />
+        <h4>Світло</h4>
+        <p>Отримуйте індивідуальні рекомендації щодо освітлення, навіть якщо ви не спостерігаєте за своєю рослиною так
+          уважно, як ми</p>
+      </article>
+      <article class="problem-item">
+        <img src="./icons/problem_item_temperature.png" alt="3" />
+        <h4>Температура</h4>
+        <p>Вбудовані датчики відстежують температуру 24/7, тож ви будете попереджені про перші зимові нічні протяги, щоб
+          перенести вашу улюблену рослину в тепліше місце!</p>
+      </article>
+      <article class="problem-item">
+        <img src="./icons/problem_item_humidity.png" alt="4" />
+        <h4>Вологість повітря</h4>
+        <p>Чи знаєте ви, що 20% різниця вологості між вашою спальнею та ванною може суттєво вплинути на процвітання
+          вашого потосу? Отримуйте сповіщення в додатку!</p>
+      </article>
+    </div>
+  </section>
+  <!-- -->
+  <section class="about">
+    <h2>Рослини в'януть? Немає часу на догляд? Ми вирішимо це!</h2>
+    <div class="about-hiw">
+      <h4>Як це працює</h4>
+      <ol>
+        <li>Заповніть резервуар водою</li>
+        <li>Виберіть режим поливу</li>
+        <li>Насолоджуйтесь здоровими рослинами!</li>
+      </ol>
+    </div>
+    <div class="about-video">
+      <video autoplay>
+        <source src="about_video.mp4" type="video/mp4">
+        Демонстраційне відео
+      </video>
+    </div>
+  </section>
+  <aside class="problem_about-img">
+    <img src="./icons/problem_about_img.png" , alt="Image">
+  </aside>
+  <!-- -->
+  <section class="features-1">
+    <h2>Особливості продукту</h2>
+    <div class="features-1-grid">
+      <article class="features-1-item">
+        <h4>Тривале використання</h4>
+        <img src="./icons/features_item_duration.png" alt="1" />
+        <span>Фільтри гарантують тривалу роботу насоса. Захищений від пошкодження водою</span>
+      </article>
+      <article class="features-1-item">
+        <h4>Лаконічний дизайн</h4>
+        <img src="./icons/features_item_design.png" alt="2" />
+        <span>Стильний та інноваційний аксесуар гармоній впишеться до будь-якої оселі</span>
+      </article>
+      <article class="features-1-item">
+        <h4>Регулярні оновлення</h4>
+        <img src="./icons/features_item_updates.png" alt="3" />
+        <span>LeafyPod продовжує працювати завдяки оновленню програм</span>
+      </article>
+      <!-- -->
+      <article class="features-1-item">
+        <h4>Бездротова конструкція</h4>
+        <img src="./icons/features_item_energy.png" alt="4" />
+        <span>Більше 3 місяців на одному заряді навіть при регулярному використанні</span>
+      </article>
+      <article class="features-1-item">
+        <h4>Резервуар для води</h4>
+        <img src="./icons/features_item_water.png" alt="5" />
+        <span>Води в резервуарі достатньо приблизно на 4 тижні</span>
+      </article>
+      <article class="features-1-item">
+        <h4>Екологічна упаковка</h4>
+        <img src="./icons/features_item_ecology.png" alt="6" />
+        <span>Упаковка виготовлена ​​з матеріалів, які на 90+% підлягають переробці</span>
+      </article>
+    </div>
+  </section>
+  <!-- -->
+  <section class="features-2">
+    <h2>Функції мобільного додатку</h2>
+    <div class="features-2-list">
+      <ol>
+        <li>
+          <h4>Управління через смартфон</h4>
+          <span>Додаток дозволяє легко контролювати стан рослин і процес поливу прямо з вашого телефону.</span>
+        </li>
+        <li>
+          <h4>Розумні сповіщення</h4>
+          <span>Нагадування, коли рослині треба догляд.</span>
+        </li>
+        <li>
+          <h4>Щотижнева статистика</h4>
+          <span>Прості й зрозумілі звіти про стан рослин для покращення вашого догляду.</span>
+        </li>
+        <li>
+          <h4>Режими поливу</h4>
+          <span>Режими поліву графік графіка на основі потреб рослини: полив створюється за низької вологості
+            обгрунтовано, а AI оптимізує процес.</span>
+        </li>
+      </ol>
+    </div>
+    <div class="features-2-video">
+      <video autoplay>
+        <source src="features_2_video.mp4" type="video/mp4">
+        Функціонал мобільного додатку (відео)
+      </video>
+    </div>
+  </section>
+  <!-- -->
+  <section class="packaging">
+    <h3>Що у комплекті</h3>
+    <div class="packaging-grid">
+      <div class="packaging-bigitem">
+        <img src="./icons/packaging_bigitem.png" alt="Фотографія LeafyPod" />
+        <h4>LeafyPod</h4>
+      </div>
+      <div class="packaging-sg"> <!-- small grid-->
+        <div class="packaging-sg-item">
+          <img src="./icons/packaging_adapter.png" alt="Фотографія адаптера" />
+          <h4>Адаптер живлення</h4>
         </div>
-    </section>
-    <section class = "problem">
-        <h3>Вирішує 4 головні причини загибелі рослин</h3>
-        <div>
-            
+        <div class="packaging-sg-item">
+          <img src="./icons/packaging_cable.png" alt="Фотографія кабеля" />
+          <h4>Зарядний кабель</h4>
         </div>
-    </section>
-    <section class = "about">
-        <h2>Рослини в'януть? Немає часу на догляд? Ми вирішимо це!</h2>
-    </section>
-    <section class = "features-1">
-        <h2>Особливості продукту</h2>
-    </section>
-    <section class = "features-2">
-        <h2>Функції мобільного додатку</h2>
-    </section>
-    <section class = "packaging">
-        <h3>Що у комплекті</h3>
-    </section>
-    <section class = "review">
-        <h2>Відгуки</h2>
-    </section>
-    <footer class ="footer">
-
-    </footer>
+        <div class="packaging-sg-item">
+          <img src="./icons/packaging_filter.png" alt="Фотографія фільтра" />
+          <h4>LeafyPod фільтр</h4>
+        </div>
+        <div class="packaging-sg-item">
+          <img src="./icons/packaging_instruction.png" alt="Фотографія інструкції" />
+          <h4>Інструкція</h4>
+        </div>
+      </div>
+    </div>
+    <img src="./icons/packaging_plant.png" alt="Image" />
+  </section>
+  <!-- -->
+  <section class="review">
+    <h2>Відгуки</h2>
+    <div class="review-grid">
+      <article class="review-item">
+        <img src="./icons/review_daryna.png" alt="Дарина" />
+        <h4>Дарина</h4>
+        <p>LeafyPod — ідеальне рішення для догляду за рослинами без зайвих турбот. Він самостійно контролює полив,
+          освітлення і температуру, створюючи ідеальні умови. Ваші рослини завжди будуть доглянуті, навіть коли ви
+          зайняті чи подорожуєте.</p>
+      </article>
+      <article class="review-item">
+        <img src="./icons/review_arsen.png" alt="Арсен" />
+        <h4>Арсен</h4>
+        <p>Це чудово підходить для новачків, які тільки починають вирішувати проблеми, з якими ми стикаємося як
+          початківці доглядачі рослин, наприклад, коли потрібно поливати рослину, чи отримує вона достатньо світла, чи
+          не занадто жарко або холодно у нашому домі.</p>
+      </article>
+      <article class="review-item">
+        <img src="./icons/review_sofiia.png" alt="Софія" />
+        <h4>Софія</h4>
+        <p>Цей вазон також ідеально підходить для тих, хто подорожує і не хоче хвилюватися, як поливати рослини або в
+          якому стані вони будуть, коли ви повернетеся додому. Завдяки цьому горщику, ваші рослини будуть доглянуті —
+          усе в одному.</p>
+      </article>
+    </div>
+  </section>
+  <!-- -->
+  <footer class="footer">
+    <div class="footer-items">
+      <div class="leafypod-icon">
+        <img src="./icons/leafy_pod_icon.png" alt="LeafyPod" />
+      </div>
+      <div class="footer-left">
+        <span>Розумний догляд за вашими рослинами - легко і без турбот!</span>
+        <span>Слідкуйте за нами</span>
+        <nav class="footer-social">
+          <a href="#">
+            <img src="./icons/facebook.png" alt="Facebook" />
+          </a>
+          <a href="#">
+            <img src="./icons/youtube.png" alt="YouTube" />
+          </a>
+          <a href="#">
+            <img src="./icons/instagram.png" alt="Instagram" />
+          </a>
+        </nav>
+      </div class="footer-right">
+      <a href="#">Умови використання</a>
+      <a href="#">Політика конфіденційності</a>
+      <span>info@leafypod.one</span>
+      <span>© 2024 LeafyPod. Усі права захищені.</span>
+    </div>
+    </div>
+    <div class="footer-image">
+      <img src="./icons/footer_plant.png" alt="Image" />
+    </div>
+  </footer>
 </body>
+
 </html>
